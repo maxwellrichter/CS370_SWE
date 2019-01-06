@@ -1,0 +1,40 @@
+#Filename
+	Exists:
+		Yes.
+		No. [error]
+	Number of Files:
+		One.
+		Many.
+
+#File
+	Size:
+		Empty.	[property empty]
+		Not Empty.
+
+	Number of occurrences of FROM in the file:
+		None.	[if !empty] [property noOccurrences]
+		One.	[if !empty]
+		Many.	[if !empty] [property severalOccurrences]
+	Number of occurrences per line:
+		One.	[if severalOccurrences]
+		Many.	[if severalOccurrences]
+	
+#Word Appearance
+	
+	Number of spaces in FROM:
+		None.
+		More than 0.
+	Case Sensitive Search:
+		Yes.	[if !empty]
+		No.		[if !empty]
+	Which occurrences get replaced:
+		First only.		[if !empty && severalOccurrences]
+		Last only.		[if !empty && severalOccurrences]
+		First and Last only.	[if !empty && severalOccurrences]
+		All.			[if !empty && severalOccurrences]
+	Backup:
+		Yes. [single]
+		No. [single]
+
+
+

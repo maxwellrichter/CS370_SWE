@@ -1,0 +1,1020 @@
+
+Test Case 1  		<error>
+   Exists :  No
+
+
+Test Case 2  		<single>
+   Backup :  Yes
+
+
+Test Case 3  		<single>
+   Backup :  No
+
+
+Test Case 4  		(Key = 1.1.1.0.0.1.0.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Empty
+   Number of occurrences of FROM in the file :  <n/a>
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  <n/a>
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 5  		(Key = 1.1.1.0.0.2.0.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Empty
+   Number of occurrences of FROM in the file :  <n/a>
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  <n/a>
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 6  		(Key = 1.1.2.1.0.1.1.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  None
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 7  		(Key = 1.1.2.1.0.1.2.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  None
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 8  		(Key = 1.1.2.1.0.2.1.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  None
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 9  		(Key = 1.1.2.1.0.2.2.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  None
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 10 		(Key = 1.1.2.2.0.1.1.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  One
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 11 		(Key = 1.1.2.2.0.1.2.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  One
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 12 		(Key = 1.1.2.2.0.2.1.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  One
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 13 		(Key = 1.1.2.2.0.2.2.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  One
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 14 		(Key = 1.1.2.3.1.1.1.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 15 		(Key = 1.1.2.3.1.1.1.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 16 		(Key = 1.1.2.3.1.1.1.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 17 		(Key = 1.1.2.3.1.1.1.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 18 		(Key = 1.1.2.3.1.1.2.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 19 		(Key = 1.1.2.3.1.1.2.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 20 		(Key = 1.1.2.3.1.1.2.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 21 		(Key = 1.1.2.3.1.1.2.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 22 		(Key = 1.1.2.3.1.2.1.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 23 		(Key = 1.1.2.3.1.2.1.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 24 		(Key = 1.1.2.3.1.2.1.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 25 		(Key = 1.1.2.3.1.2.1.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 26 		(Key = 1.1.2.3.1.2.2.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 27 		(Key = 1.1.2.3.1.2.2.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 28 		(Key = 1.1.2.3.1.2.2.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 29 		(Key = 1.1.2.3.1.2.2.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 30 		(Key = 1.1.2.3.2.1.1.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 31 		(Key = 1.1.2.3.2.1.1.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 32 		(Key = 1.1.2.3.2.1.1.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 33 		(Key = 1.1.2.3.2.1.1.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 34 		(Key = 1.1.2.3.2.1.2.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 35 		(Key = 1.1.2.3.2.1.2.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 36 		(Key = 1.1.2.3.2.1.2.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 37 		(Key = 1.1.2.3.2.1.2.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 38 		(Key = 1.1.2.3.2.2.1.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 39 		(Key = 1.1.2.3.2.2.1.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 40 		(Key = 1.1.2.3.2.2.1.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 41 		(Key = 1.1.2.3.2.2.1.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 42 		(Key = 1.1.2.3.2.2.2.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 43 		(Key = 1.1.2.3.2.2.2.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 44 		(Key = 1.1.2.3.2.2.2.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 45 		(Key = 1.1.2.3.2.2.2.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  One
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 46 		(Key = 1.2.1.0.0.1.0.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Empty
+   Number of occurrences of FROM in the file :  <n/a>
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  <n/a>
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 47 		(Key = 1.2.1.0.0.2.0.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Empty
+   Number of occurrences of FROM in the file :  <n/a>
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  <n/a>
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 48 		(Key = 1.2.2.1.0.1.1.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  None
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 49 		(Key = 1.2.2.1.0.1.2.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  None
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 50 		(Key = 1.2.2.1.0.2.1.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  None
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 51 		(Key = 1.2.2.1.0.2.2.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  None
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 52 		(Key = 1.2.2.2.0.1.1.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  One
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 53 		(Key = 1.2.2.2.0.1.2.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  One
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 54 		(Key = 1.2.2.2.0.2.1.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  One
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 55 		(Key = 1.2.2.2.0.2.2.0.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  One
+   Number of occurrences per line            :  <n/a>
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  <n/a>
+   Backup                                    :  <n/a>
+
+
+Test Case 56 		(Key = 1.2.2.3.1.1.1.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 57 		(Key = 1.2.2.3.1.1.1.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 58 		(Key = 1.2.2.3.1.1.1.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 59 		(Key = 1.2.2.3.1.1.1.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 60 		(Key = 1.2.2.3.1.1.2.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 61 		(Key = 1.2.2.3.1.1.2.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 62 		(Key = 1.2.2.3.1.1.2.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 63 		(Key = 1.2.2.3.1.1.2.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 64 		(Key = 1.2.2.3.1.2.1.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 65 		(Key = 1.2.2.3.1.2.1.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 66 		(Key = 1.2.2.3.1.2.1.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 67 		(Key = 1.2.2.3.1.2.1.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 68 		(Key = 1.2.2.3.1.2.2.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 69 		(Key = 1.2.2.3.1.2.2.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 70 		(Key = 1.2.2.3.1.2.2.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 71 		(Key = 1.2.2.3.1.2.2.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  One
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 72 		(Key = 1.2.2.3.2.1.1.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 73 		(Key = 1.2.2.3.2.1.1.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 74 		(Key = 1.2.2.3.2.1.1.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 75 		(Key = 1.2.2.3.2.1.1.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 76 		(Key = 1.2.2.3.2.1.2.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 77 		(Key = 1.2.2.3.2.1.2.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 78 		(Key = 1.2.2.3.2.1.2.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 79 		(Key = 1.2.2.3.2.1.2.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  None
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 80 		(Key = 1.2.2.3.2.2.1.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 81 		(Key = 1.2.2.3.2.2.1.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 82 		(Key = 1.2.2.3.2.2.1.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 83 		(Key = 1.2.2.3.2.2.1.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  Yes
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
+
+Test Case 84 		(Key = 1.2.2.3.2.2.2.1.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First only
+   Backup                                    :  <n/a>
+
+
+Test Case 85 		(Key = 1.2.2.3.2.2.2.2.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 86 		(Key = 1.2.2.3.2.2.2.3.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  First and Last only
+   Backup                                    :  <n/a>
+
+
+Test Case 87 		(Key = 1.2.2.3.2.2.2.4.0.)
+   Exists                                    :  Yes
+   Number of Files                           :  Many
+   Size                                      :  Not Empty
+   Number of occurrences of FROM in the file :  Many
+   Number of occurrences per line            :  Many
+   Number of spaces in FROM                  :  More than 0
+   Case Sensitive Search                     :  No
+   Which occurrences get replaced            :  All
+   Backup                                    :  <n/a>
+
